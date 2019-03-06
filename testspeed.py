@@ -2,4 +2,4 @@
 import timeit
 def addnumber():
 	1+1
-timeit.timeit(stmt=addnumber,times=1000000)
+print(timeit.timeit(stmt=addnumber,number=100000000))
